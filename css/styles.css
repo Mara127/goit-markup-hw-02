@@ -1,52 +1,94 @@
-body {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  color: #434455;
-}
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
+
 a {
   text-decoration: none;
   color: inherit;
 }
-header a {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  margin: 0;
+
+  font-size: 16px;
+  line-height: 1.5;
 }
+
 h1,
 h2,
 h3 {
   color: #2e2f42;
 }
-button {
-  font-family: inherit;
-  cursor: pointer;
-}
+
 address {
   font-style: normal;
 }
-header {
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.page-header {
   background-color: #ffffff;
 }
 
-footer {
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.logo span {
+    color: #4D5AE5;
+}
+
+.menu-link, .contact-link {
+
+   font-size: ;
+   line-height: ;
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
+.hero-section {
   background-color: #2e2f42;
 }
 
-main section:first-child {
-  background-color: #2e2f42;
+.hero-title {
+    color: #ffffff
+    font-size: ;
+    line-height: ;
 }
-footer {
+
+.hero-button {
+    background-color: #4D5AE5;
+    color: #ffffff
+     font-size: ;
+     line-height: ;
+     font-weight: ;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+.page-footer {
+  background-color: #2e2f42;
   color: #f4f4fd;
 }
-a:hover,
-a:focus {
-  color: #404bbf;
-}
-button:hover,
-button:focus {
-  background-color: #404bbf;
+
+.footer-text {
+    
+    font-size: ;
+    line-height: ;
 }
